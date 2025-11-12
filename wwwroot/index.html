@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VitalCore - Trainer Management System</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <h1 class="logo">VitalCore</h1>
+            <ul class="nav-menu">
+                <li><a href="#trainers" class="nav-link active" data-section="trainers">Trainers</a></li>
+                <li><a href="#clients" class="nav-link" data-section="clients">Clients</a></li>
+                <li><a href="#facilities" class="nav-link" data-section="facilities">Facilities</a></li>
+                <li><a href="#sessions" class="nav-link" data-section="sessions">Sessions</a></li>
+                <li><a href="#payments" class="nav-link" data-section="payments">Payments</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="container">
+        <!-- Trainers Section -->
+        <section id="trainers" class="section active">
+            <div class="section-header">
+                <h2>Trainers</h2>
+                <button class="btn btn-primary" onclick="showTrainerModal()">Add Trainer</button>
+            </div>
+            <div class="table-container">
+                <table id="trainersTable">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Name</th>
+                            <th>Specialty</th>
+                            <th>Hourly Rate</th>
+                            <th>Contact</th>
+                            <th>VitalCore Fee</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- Clients Section -->
+        <section id="clients" class="section">
+            <div class="section-header">
+                <h2>Clients</h2>
+                <button class="btn btn-primary" onclick="showClientModal()">Add Client</button>
+            </div>
+            <div class="table-container">
+                <table id="clientsTable">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Name</th>
+                            <th>Email</th>
+                            <th>Phone</th>
+                            <th>Membership Status</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- Facilities Section -->
+        <section id="facilities" class="section">
+            <div class="section-header">
+                <h2>Facilities</h2>
+                <button class="btn btn-primary" onclick="showFacilityModal()">Add Facility</button>
+            </div>
+            <div class="table-container">
+                <table id="facilitiesTable">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Location</th>
+                            <th>Room Name</th>
+                            <th>Equipment</th>
+                            <th>Capacity</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- Sessions Section -->
+        <section id="sessions" class="section">
+            <div class="section-header">
+                <h2>Session Bookings</h2>
+                <button class="btn btn-primary" onclick="showSessionModal()">Add Session</button>
+            </div>
+            <div class="table-container">
+                <table id="sessionsTable">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Client</th>
+                            <th>Trainer</th>
+                            <th>Facility</th>
+                            <th>Date</th>
+                            <th>Time</th>
+                            <th>Status</th>
+                            <th>Total Fee</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- Payments Section -->
+        <section id="payments" class="section">
+            <div class="section-header">
+                <h2>Payments</h2>
+                <button class="btn btn-primary" onclick="showPaymentModal()">Add Payment</button>
+            </div>
+            <div class="table-container">
+                <table id="paymentsTable">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Session ID</th>
+                            <th>Trainer</th>
+                            <th>Amount Paid</th>
+                            <th>Payment Date</th>
+                            <th>Status</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+        </section>
+    </main>
+
+    <!-- Modal -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <h2 id="modalTitle">Add Item</h2>
+            <form id="modalForm">
+                <div id="formFields"></div>
+                <div class="form-actions">
+                    <button type="submit" class="btn btn-primary">Save</button>
+                    <button type="button" class="btn btn-secondary" onclick="closeModal()">Cancel</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="/js/app.js"></script>
+</body>
+</html>

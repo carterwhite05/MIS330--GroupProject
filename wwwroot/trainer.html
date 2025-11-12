@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trainer Portal - VitalCore</title>
+    <link rel="stylesheet" href="/css/portal.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <h1 class="logo">VitalCore</h1>
+            <div class="nav-user">
+                <span id="trainerName" class="user-name"></span>
+                <button onclick="logout()" class="btn-logout">Logout</button>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container portal-container">
+        <div class="tabs">
+            <button class="tab-btn active" data-tab="dashboard">Dashboard</button>
+            <button class="tab-btn" data-tab="sessions">My Sessions</button>
+            <button class="tab-btn" data-tab="earnings">Earnings</button>
+            <button class="tab-btn" data-tab="profile">Profile</button>
+        </div>
+
+        <!-- Dashboard Tab -->
+        <div id="dashboard" class="tab-content active">
+            <h2>Dashboard</h2>
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-icon">📅</div>
+                    <div class="stat-info">
+                        <h3 id="upcomingSessions">0</h3>
+                        <p>Upcoming Sessions</p>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">✅</div>
+                    <div class="stat-info">
+                        <h3 id="completedSessions">0</h3>
+                        <p>Completed Sessions</p>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">💰</div>
+                    <div class="stat-info">
+                        <h3 id="totalEarnings">$0.00</h3>
+                        <p>Total Earnings</p>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">👥</div>
+                    <div class="stat-info">
+                        <h3 id="totalClients">0</h3>
+                        <p>Total Clients</p>
+                    </div>
+                </div>
+            </div>
+            <div id="upcomingSessionsList" class="upcoming-sessions"></div>
+        </div>
+
+        <!-- Sessions Tab -->
+        <div id="sessions" class="tab-content">
+            <h2>All Sessions</h2>
+            <div class="session-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="Scheduled">Scheduled</button>
+                <button class="filter-btn" data-filter="Completed">Completed</button>
+                <button class="filter-btn" data-filter="Cancelled">Cancelled</button>
+            </div>
+            <div id="allSessionsList" class="sessions-list"></div>
+        </div>
+
+        <!-- Earnings Tab -->
+        <div id="earnings" class="tab-content">
+            <h2>Earnings Overview</h2>
+            <div class="earnings-summary">
+                <div class="earnings-card">
+                    <h3>Total Paid</h3>
+                    <p class="earnings-amount" id="totalPaid">$0.00</p>
+                </div>
+                <div class="earnings-card">
+                    <h3>Pending Payments</h3>
+                    <p class="earnings-amount pending" id="pendingPayments">$0.00</p>
+                </div>
+            </div>
+            <div id="earningsHistory" class="earnings-history"></div>
+        </div>
+
+        <!-- Profile Tab -->
+        <div id="profile" class="tab-content">
+            <h2>My Profile</h2>
+            <form id="profileForm" onsubmit="updateProfile(event)">
+                <div class="profile-section">
+                    <div class="form-group">
+                        <label>Name</label>
+                        <input type="text" id="profileName" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Specialty</label>
+                        <input type="text" id="profileSpecialty">
+                    </div>
+                    <div class="form-group">
+                        <label>Hourly Rate ($)</label>
+                        <input type="number" step="0.01" id="profileRate">
+                    </div>
+                    <div class="form-group">
+                        <label>Contact Information</label>
+                        <input type="text" id="profileContact">
+                    </div>
+                    <div class="form-group">
+                        <label>VitalCore Fee ($)</label>
+                        <input type="number" step="0.01" id="profileFee" readonly>
+                        <small class="form-help">20% of your hourly rate</small>
+                    </div>
+                </div>
+                <div class="form-actions">
+                    <button type="submit" class="btn btn-primary">Update Profile</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Session Detail Modal -->
+    <div id="sessionDetailModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeSessionModal()">&times;</span>
+            <h2>Session Details</h2>
+            <div id="sessionDetailContent"></div>
+        </div>
+    </div>
+
+    <script src="/js/trainer-portal.js"></script>
+</body>
+</html>

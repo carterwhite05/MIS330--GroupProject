@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VitalCore - Fitness Training Platform</title>
+    <link rel="stylesheet" href="/css/portal.css">
+</head>
+<body>
+    <div class="landing-page">
+        <div class="hero-section">
+            <div class="container">
+                <div class="logo-section">
+                    <h1 class="brand-logo">VitalCore</h1>
+                    <p class="brand-tagline">Your Personal Training Platform</p>
+                </div>
+                
+                <div class="portal-cards">
+                    <div class="portal-card client-card">
+                        <div class="card-icon">👤</div>
+                        <h2>Client Portal</h2>
+                        <p>Book training sessions, manage appointments, and track your fitness journey</p>
+                        <button onclick="showClientLogin()" class="portal-btn client-btn">Enter as Client</button>
+                    </div>
+                    
+                    <div class="portal-card trainer-card">
+                        <div class="card-icon">💪</div>
+                        <h2>Trainer Portal</h2>
+                        <p>Manage your schedule, view bookings, and track your earnings</p>
+                        <button onclick="showTrainerLogin()" class="portal-btn trainer-btn">Enter as Trainer</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Client Login Modal -->
+    <div id="clientLoginModal" class="modal">
+        <div class="modal-content login-modal">
+            <span class="close" onclick="closeModals()">&times;</span>
+            <h2>Client Login</h2>
+            <p class="modal-subtitle">Select your profile to continue</p>
+            <div id="clientList" class="user-list"></div>
+            <button onclick="createNewClient()" class="btn btn-secondary">Create New Client Account</button>
+        </div>
+    </div>
+
+    <!-- Trainer Login Modal -->
+    <div id="trainerLoginModal" class="modal">
+        <div class="modal-content login-modal">
+            <span class="close" onclick="closeModals()">&times;</span>
+            <h2>Trainer Login</h2>
+            <p class="modal-subtitle">Select your profile to continue</p>
+            <div id="trainerList" class="user-list"></div>
+            <button onclick="createNewTrainer()" class="btn btn-secondary">Create New Trainer Account</button>
+        </div>
+    </div>
+
+    <!-- Create Client Modal -->
+    <div id="createClientModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModals()">&times;</span>
+            <h2>Create Client Account</h2>
+            <form id="createClientForm" onsubmit="submitNewClient(event)">
+                <div class="form-group">
+                    <label>Full Name *</label>
+                    <input type="text" id="newClientName" required>
+                </div>
+                <div class="form-group">
+                    <label>Email *</label>
+                    <input type="email" id="newClientEmail" required>
+                </div>
+                <div class="form-group">
+                    <label>Phone</label>
+                    <input type="tel" id="newClientPhone">
+                </div>
+                <div class="form-actions">
+                    <button type="submit" class="btn btn-primary">Create Account</button>
+                    <button type="button" class="btn btn-secondary" onclick="showClientLogin()">Back</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Create Trainer Modal -->
+    <div id="createTrainerModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModals()">&times;</span>
+            <h2>Create Trainer Account</h2>
+            <form id="createTrainerForm" onsubmit="submitNewTrainer(event)">
+                <div class="form-group">
+                    <label>Full Name *</label>
+                    <input type="text" id="newTrainerName" required>
+                </div>
+                <div class="form-group">
+                    <label>Specialty *</label>
+                    <input type="text" id="newTrainerSpecialty" required placeholder="e.g., Weight Training, Yoga, CrossFit">
+                </div>
+                <div class="form-group">
+                    <label>Hourly Rate ($) *</label>
+                    <input type="number" step="0.01" id="newTrainerRate" required>
+                </div>
+                <div class="form-group">
+                    <label>Contact Email *</label>
+                    <input type="email" id="newTrainerContact" required>
+                </div>
+                <div class="form-actions">
+                    <button type="submit" class="btn btn-primary">Create Account</button>
+                    <button type="button" class="btn btn-secondary" onclick="showTrainerLogin()">Back</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="/js/landing.js"></script>
+</body>
+</html>

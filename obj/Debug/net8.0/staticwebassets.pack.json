@@ -1,0 +1,61 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/robertgill/mis330gp/MIS330--GroupProject/wwwroot/client.html",
+      "PackagePath": "staticwebassets/client.html"
+    },
+    {
+      "Id": "/Users/robertgill/mis330gp/MIS330--GroupProject/wwwroot/css/portal.css",
+      "PackagePath": "staticwebassets/css/portal.css"
+    },
+    {
+      "Id": "/Users/robertgill/mis330gp/MIS330--GroupProject/wwwroot/css/style.css",
+      "PackagePath": "staticwebassets/css/style.css"
+    },
+    {
+      "Id": "/Users/robertgill/mis330gp/MIS330--GroupProject/wwwroot/index.html",
+      "PackagePath": "staticwebassets/index.html"
+    },
+    {
+      "Id": "/Users/robertgill/mis330gp/MIS330--GroupProject/wwwroot/js/app.js",
+      "PackagePath": "staticwebassets/js/app.js"
+    },
+    {
+      "Id": "/Users/robertgill/mis330gp/MIS330--GroupProject/wwwroot/js/client-portal.js",
+      "PackagePath": "staticwebassets/js/client-portal.js"
+    },
+    {
+      "Id": "/Users/robertgill/mis330gp/MIS330--GroupProject/wwwroot/js/landing.js",
+      "PackagePath": "staticwebassets/js/landing.js"
+    },
+    {
+      "Id": "/Users/robertgill/mis330gp/MIS330--GroupProject/wwwroot/js/trainer-portal.js",
+      "PackagePath": "staticwebassets/js/trainer-portal.js"
+    },
+    {
+      "Id": "/Users/robertgill/mis330gp/MIS330--GroupProject/wwwroot/landing.html",
+      "PackagePath": "staticwebassets/landing.html"
+    },
+    {
+      "Id": "/Users/robertgill/mis330gp/MIS330--GroupProject/wwwroot/trainer.html",
+      "PackagePath": "staticwebassets/trainer.html"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.MIS330--GroupProject.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.MIS330--GroupProject.props",
+      "PackagePath": "build\\MIS330--GroupProject.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.MIS330--GroupProject.props",
+      "PackagePath": "buildMultiTargeting\\MIS330--GroupProject.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.MIS330--GroupProject.props",
+      "PackagePath": "buildTransitive\\MIS330--GroupProject.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

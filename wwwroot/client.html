@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Portal - VitalCore</title>
+    <link rel="stylesheet" href="/css/portal.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <h1 class="logo">VitalCore</h1>
+            <div class="nav-user">
+                <span id="clientName" class="user-name"></span>
+                <button onclick="logout()" class="btn-logout">Logout</button>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container portal-container">
+        <div class="tabs">
+            <button class="tab-btn active" data-tab="browse">Browse Trainers</button>
+            <button class="tab-btn" data-tab="bookings">My Bookings</button>
+            <button class="tab-btn" data-tab="payments">Payment History</button>
+        </div>
+
+        <!-- Browse Trainers Tab -->
+        <div id="browse" class="tab-content active">
+            <h2>Available Trainers</h2>
+            <div id="trainerGrid" class="trainer-grid"></div>
+        </div>
+
+        <!-- My Bookings Tab -->
+        <div id="bookings" class="tab-content">
+            <h2>My Training Sessions</h2>
+            <div id="bookingsList" class="bookings-list"></div>
+        </div>
+
+        <!-- Payment History Tab -->
+        <div id="payments" class="tab-content">
+            <h2>Payment History</h2>
+            <div id="paymentsList" class="payments-list"></div>
+        </div>
+    </div>
+
+    <!-- Book Session Modal -->
+    <div id="bookSessionModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeBookingModal()">&times;</span>
+            <h2>Book Training Session</h2>
+            <div id="selectedTrainerInfo" class="trainer-info-card"></div>
+            <form id="bookingForm" onsubmit="submitBooking(event)">
+                <div class="form-group">
+                    <label>Select Facility</label>
+                    <select id="facilitySelect" required>
+                        <option value="">Choose a facility...</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>Date</label>
+                    <input type="date" id="sessionDate" required>
+                </div>
+                <div class="form-group">
+                    <label>Start Time</label>
+                    <input type="time" id="startTime" required>
+                </div>
+                <div class="form-group">
+                    <label>Duration</label>
+                    <select id="duration" required>
+                        <option value="1">1 hour</option>
+                        <option value="1.5">1.5 hours</option>
+                        <option value="2">2 hours</option>
+                    </select>
+                </div>
+                <div id="bookingSummary" class="booking-summary"></div>
+                <div class="form-actions">
+                    <button type="submit" class="btn btn-primary">Confirm Booking</button>
+                    <button type="button" class="btn btn-secondary" onclick="closeBookingModal()">Cancel</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="/js/client-portal.js"></script>
+</body>
+</html>

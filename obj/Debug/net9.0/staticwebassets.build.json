@@ -1,0 +1,1042 @@
+{
+  "Version": 1,
+  "Hash": "+RaRcgQ3upOn8r22NoPa2C2HwKUQfc34neWdkiic03Q=",
+  "Source": "MIS330--GroupProject",
+  "BasePath": "_content/MIS330--GroupProject",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "MIS330--GroupProject/wwwroot",
+      "Source": "MIS330--GroupProject",
+      "ContentRoot": "/Users/robertgill/mis330gp/MIS330--GroupProject/wwwroot/",
+      "BasePath": "_content/MIS330--GroupProject",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/Users/robertgill/mis330gp/MIS330--GroupProject/obj/Debug/net9.0/compressed/pfu0ll9248-8haiu8odwa.gz",
+      "SourceId": "MIS330--GroupProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/robertgill/mis330gp/MIS330--GroupProject/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/MIS330--GroupProject",
+      "RelativePath": "index#[.{fingerprint=8haiu8odwa}]?.html.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/Users/robertgill/mis330gp/MIS330--GroupProject/wwwroot/index.html",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "gmgoroldu3",
+      "Integrity": "2KqLz+OJOIv7U+wg44SlcjVlzDhzqvF6Tz7j81elIYo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/robertgill/mis330gp/MIS330--GroupProject/wwwroot/index.html"
+    },
+    {
+      "Identity": "/Users/robertgill/mis330gp/MIS330--GroupProject/obj/Debug/net9.0/compressed/q3twt9s064-opdk6zo0b3.gz",
+      "SourceId": "MIS330--GroupProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/robertgill/mis330gp/MIS330--GroupProject/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/MIS330--GroupProject",
+      "RelativePath": "js/app#[.{fingerprint=opdk6zo0b3}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/Users/robertgill/mis330gp/MIS330--GroupProject/wwwroot/js/app.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "3kp0q810ux",
+      "Integrity": "YwtROXt6aMRfjkFiiNWfYi5UTtkZLy0bNEggT04Hiwg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/robertgill/mis330gp/MIS330--GroupProject/wwwroot/js/app.js"
+    },
+    {
+      "Identity": "/Users/robertgill/mis330gp/MIS330--GroupProject/obj/Debug/net9.0/compressed/rqivwjv029-rmyk2visun.gz",
+      "SourceId": "MIS330--GroupProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/robertgill/mis330gp/MIS330--GroupProject/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/MIS330--GroupProject",
+      "RelativePath": "css/style#[.{fingerprint=rmyk2visun}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/Users/robertgill/mis330gp/MIS330--GroupProject/wwwroot/css/style.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "qmazl3oqw7",
+      "Integrity": "br7EcZ3aktjqO3NURdl6UGiluDHph7rSL7NcX0ndFUc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/robertgill/mis330gp/MIS330--GroupProject/wwwroot/css/style.css"
+    },
+    {
+      "Identity": "/Users/robertgill/mis330gp/MIS330--GroupProject/wwwroot/css/style.css",
+      "SourceId": "MIS330--GroupProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/robertgill/mis330gp/MIS330--GroupProject/wwwroot/",
+      "BasePath": "_content/MIS330--GroupProject",
+      "RelativePath": "css/style#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "rmyk2visun",
+      "Integrity": "Uyq0W+cxPkBo5bzTVn/kLxof0aKV/s9frCE0/kA0ToM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/style.css"
+    },
+    {
+      "Identity": "/Users/robertgill/mis330gp/MIS330--GroupProject/wwwroot/index.html",
+      "SourceId": "MIS330--GroupProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/robertgill/mis330gp/MIS330--GroupProject/wwwroot/",
+      "BasePath": "_content/MIS330--GroupProject",
+      "RelativePath": "index#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8haiu8odwa",
+      "Integrity": "jMOtFt4U1ik9b73So0t/YRXwMseHIYpmS38HQYVDTvo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/index.html"
+    },
+    {
+      "Identity": "/Users/robertgill/mis330gp/MIS330--GroupProject/wwwroot/js/app.js",
+      "SourceId": "MIS330--GroupProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/robertgill/mis330gp/MIS330--GroupProject/wwwroot/",
+      "BasePath": "_content/MIS330--GroupProject",
+      "RelativePath": "js/app#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "opdk6zo0b3",
+      "Integrity": "lMvCd4mZbA6JHBmaR4Vb8hzwmi4TgVseVMCyek8enRA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/js/app.js"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "css/style.css",
+      "AssetFile": "/Users/robertgill/mis330gp/MIS330--GroupProject/obj/Debug/net9.0/compressed/rqivwjv029-rmyk2visun.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000726744186"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1375"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"br7EcZ3aktjqO3NURdl6UGiluDHph7rSL7NcX0ndFUc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Nov 2025 20:13:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"Uyq0W+cxPkBo5bzTVn/kLxof0aKV/s9frCE0/kA0ToM=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Uyq0W+cxPkBo5bzTVn/kLxof0aKV/s9frCE0/kA0ToM="
+        }
+      ]
+    },
+    {
+      "Route": "css/style.css",
+      "AssetFile": "/Users/robertgill/mis330gp/MIS330--GroupProject/wwwroot/css/style.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4680"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Uyq0W+cxPkBo5bzTVn/kLxof0aKV/s9frCE0/kA0ToM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Nov 2025 20:13:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Uyq0W+cxPkBo5bzTVn/kLxof0aKV/s9frCE0/kA0ToM="
+        }
+      ]
+    },
+    {
+      "Route": "css/style.css.gz",
+      "AssetFile": "/Users/robertgill/mis330gp/MIS330--GroupProject/obj/Debug/net9.0/compressed/rqivwjv029-rmyk2visun.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1375"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"br7EcZ3aktjqO3NURdl6UGiluDHph7rSL7NcX0ndFUc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Nov 2025 20:13:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-br7EcZ3aktjqO3NURdl6UGiluDHph7rSL7NcX0ndFUc="
+        }
+      ]
+    },
+    {
+      "Route": "css/style.rmyk2visun.css",
+      "AssetFile": "/Users/robertgill/mis330gp/MIS330--GroupProject/obj/Debug/net9.0/compressed/rqivwjv029-rmyk2visun.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000726744186"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1375"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"br7EcZ3aktjqO3NURdl6UGiluDHph7rSL7NcX0ndFUc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Nov 2025 20:13:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"Uyq0W+cxPkBo5bzTVn/kLxof0aKV/s9frCE0/kA0ToM=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "rmyk2visun"
+        },
+        {
+          "Name": "label",
+          "Value": "css/style.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Uyq0W+cxPkBo5bzTVn/kLxof0aKV/s9frCE0/kA0ToM="
+        }
+      ]
+    },
+    {
+      "Route": "css/style.rmyk2visun.css",
+      "AssetFile": "/Users/robertgill/mis330gp/MIS330--GroupProject/wwwroot/css/style.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4680"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Uyq0W+cxPkBo5bzTVn/kLxof0aKV/s9frCE0/kA0ToM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Nov 2025 20:13:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "rmyk2visun"
+        },
+        {
+          "Name": "label",
+          "Value": "css/style.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Uyq0W+cxPkBo5bzTVn/kLxof0aKV/s9frCE0/kA0ToM="
+        }
+      ]
+    },
+    {
+      "Route": "css/style.rmyk2visun.css.gz",
+      "AssetFile": "/Users/robertgill/mis330gp/MIS330--GroupProject/obj/Debug/net9.0/compressed/rqivwjv029-rmyk2visun.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1375"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"br7EcZ3aktjqO3NURdl6UGiluDHph7rSL7NcX0ndFUc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Nov 2025 20:13:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "rmyk2visun"
+        },
+        {
+          "Name": "label",
+          "Value": "css/style.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-br7EcZ3aktjqO3NURdl6UGiluDHph7rSL7NcX0ndFUc="
+        }
+      ]
+    },
+    {
+      "Route": "index.8haiu8odwa.html",
+      "AssetFile": "/Users/robertgill/mis330gp/MIS330--GroupProject/obj/Debug/net9.0/compressed/pfu0ll9248-8haiu8odwa.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000957854406"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1043"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2KqLz+OJOIv7U+wg44SlcjVlzDhzqvF6Tz7j81elIYo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Nov 2025 20:13:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"jMOtFt4U1ik9b73So0t/YRXwMseHIYpmS38HQYVDTvo=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8haiu8odwa"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-jMOtFt4U1ik9b73So0t/YRXwMseHIYpmS38HQYVDTvo="
+        }
+      ]
+    },
+    {
+      "Route": "index.8haiu8odwa.html",
+      "AssetFile": "/Users/robertgill/mis330gp/MIS330--GroupProject/wwwroot/index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6097"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jMOtFt4U1ik9b73So0t/YRXwMseHIYpmS38HQYVDTvo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Nov 2025 20:13:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8haiu8odwa"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-jMOtFt4U1ik9b73So0t/YRXwMseHIYpmS38HQYVDTvo="
+        }
+      ]
+    },
+    {
+      "Route": "index.8haiu8odwa.html.gz",
+      "AssetFile": "/Users/robertgill/mis330gp/MIS330--GroupProject/obj/Debug/net9.0/compressed/pfu0ll9248-8haiu8odwa.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1043"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2KqLz+OJOIv7U+wg44SlcjVlzDhzqvF6Tz7j81elIYo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Nov 2025 20:13:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8haiu8odwa"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-2KqLz+OJOIv7U+wg44SlcjVlzDhzqvF6Tz7j81elIYo="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "/Users/robertgill/mis330gp/MIS330--GroupProject/obj/Debug/net9.0/compressed/pfu0ll9248-8haiu8odwa.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000957854406"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1043"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2KqLz+OJOIv7U+wg44SlcjVlzDhzqvF6Tz7j81elIYo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Nov 2025 20:13:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"jMOtFt4U1ik9b73So0t/YRXwMseHIYpmS38HQYVDTvo=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-jMOtFt4U1ik9b73So0t/YRXwMseHIYpmS38HQYVDTvo="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "/Users/robertgill/mis330gp/MIS330--GroupProject/wwwroot/index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6097"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jMOtFt4U1ik9b73So0t/YRXwMseHIYpmS38HQYVDTvo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Nov 2025 20:13:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-jMOtFt4U1ik9b73So0t/YRXwMseHIYpmS38HQYVDTvo="
+        }
+      ]
+    },
+    {
+      "Route": "index.html.gz",
+      "AssetFile": "/Users/robertgill/mis330gp/MIS330--GroupProject/obj/Debug/net9.0/compressed/pfu0ll9248-8haiu8odwa.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1043"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2KqLz+OJOIv7U+wg44SlcjVlzDhzqvF6Tz7j81elIYo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Nov 2025 20:13:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-2KqLz+OJOIv7U+wg44SlcjVlzDhzqvF6Tz7j81elIYo="
+        }
+      ]
+    },
+    {
+      "Route": "js/app.js",
+      "AssetFile": "/Users/robertgill/mis330gp/MIS330--GroupProject/obj/Debug/net9.0/compressed/q3twt9s064-opdk6zo0b3.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000272925764"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3663"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YwtROXt6aMRfjkFiiNWfYi5UTtkZLy0bNEggT04Hiwg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Nov 2025 20:13:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"lMvCd4mZbA6JHBmaR4Vb8hzwmi4TgVseVMCyek8enRA=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-lMvCd4mZbA6JHBmaR4Vb8hzwmi4TgVseVMCyek8enRA="
+        }
+      ]
+    },
+    {
+      "Route": "js/app.js",
+      "AssetFile": "/Users/robertgill/mis330gp/MIS330--GroupProject/wwwroot/js/app.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "26400"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lMvCd4mZbA6JHBmaR4Vb8hzwmi4TgVseVMCyek8enRA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Nov 2025 20:13:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-lMvCd4mZbA6JHBmaR4Vb8hzwmi4TgVseVMCyek8enRA="
+        }
+      ]
+    },
+    {
+      "Route": "js/app.js.gz",
+      "AssetFile": "/Users/robertgill/mis330gp/MIS330--GroupProject/obj/Debug/net9.0/compressed/q3twt9s064-opdk6zo0b3.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3663"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YwtROXt6aMRfjkFiiNWfYi5UTtkZLy0bNEggT04Hiwg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Nov 2025 20:13:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-YwtROXt6aMRfjkFiiNWfYi5UTtkZLy0bNEggT04Hiwg="
+        }
+      ]
+    },
+    {
+      "Route": "js/app.opdk6zo0b3.js",
+      "AssetFile": "/Users/robertgill/mis330gp/MIS330--GroupProject/obj/Debug/net9.0/compressed/q3twt9s064-opdk6zo0b3.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000272925764"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3663"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YwtROXt6aMRfjkFiiNWfYi5UTtkZLy0bNEggT04Hiwg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Nov 2025 20:13:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"lMvCd4mZbA6JHBmaR4Vb8hzwmi4TgVseVMCyek8enRA=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "opdk6zo0b3"
+        },
+        {
+          "Name": "label",
+          "Value": "js/app.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-lMvCd4mZbA6JHBmaR4Vb8hzwmi4TgVseVMCyek8enRA="
+        }
+      ]
+    },
+    {
+      "Route": "js/app.opdk6zo0b3.js",
+      "AssetFile": "/Users/robertgill/mis330gp/MIS330--GroupProject/wwwroot/js/app.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "26400"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lMvCd4mZbA6JHBmaR4Vb8hzwmi4TgVseVMCyek8enRA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Nov 2025 20:13:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "opdk6zo0b3"
+        },
+        {
+          "Name": "label",
+          "Value": "js/app.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-lMvCd4mZbA6JHBmaR4Vb8hzwmi4TgVseVMCyek8enRA="
+        }
+      ]
+    },
+    {
+      "Route": "js/app.opdk6zo0b3.js.gz",
+      "AssetFile": "/Users/robertgill/mis330gp/MIS330--GroupProject/obj/Debug/net9.0/compressed/q3twt9s064-opdk6zo0b3.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3663"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YwtROXt6aMRfjkFiiNWfYi5UTtkZLy0bNEggT04Hiwg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Nov 2025 20:13:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "opdk6zo0b3"
+        },
+        {
+          "Name": "label",
+          "Value": "js/app.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-YwtROXt6aMRfjkFiiNWfYi5UTtkZLy0bNEggT04Hiwg="
+        }
+      ]
+    }
+  ]
+}

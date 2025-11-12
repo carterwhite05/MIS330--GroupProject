@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\shiel\\OneDrive\\Desktop\\2025MIS321\\MIS330--GroupProject\\MIS330--GroupProject.csproj": {}
+    "/Users/robertgill/mis330gp/MIS330--GroupProject/MIS330--GroupProject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\shiel\\OneDrive\\Desktop\\2025MIS321\\MIS330--GroupProject\\MIS330--GroupProject.csproj": {
+    "/Users/robertgill/mis330gp/MIS330--GroupProject/MIS330--GroupProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\shiel\\OneDrive\\Desktop\\2025MIS321\\MIS330--GroupProject\\MIS330--GroupProject.csproj",
+        "projectUniqueName": "/Users/robertgill/mis330gp/MIS330--GroupProject/MIS330--GroupProject.csproj",
         "projectName": "MIS330--GroupProject",
-        "projectPath": "C:\\Users\\shiel\\OneDrive\\Desktop\\2025MIS321\\MIS330--GroupProject\\MIS330--GroupProject.csproj",
-        "packagesPath": "C:\\Users\\shiel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\shiel\\OneDrive\\Desktop\\2025MIS321\\MIS330--GroupProject\\obj\\",
+        "projectPath": "/Users/robertgill/mis330gp/MIS330--GroupProject/MIS330--GroupProject.csproj",
+        "packagesPath": "/Users/robertgill/.nuget/packages/",
+        "outputPath": "/Users/robertgill/mis330gp/MIS330--GroupProject/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\shiel\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/Users/robertgill/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -42,6 +42,30 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[8.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.11, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.9.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -54,11 +78,14 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.405/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/Users/robertgill/.dotnet/sdk/8.0.416/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
